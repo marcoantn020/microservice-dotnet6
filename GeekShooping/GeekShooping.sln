@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{DCCEDEDF-57DF-4ED4-BB1A-181D9C78709A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6F6315B7-6A23-4998-AAC4-9A00036E0573}"
+	ProjectSection(SolutionItems) = preProject
+		Coomands.txt = Coomands.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.Web", "GeekShopping.Web\GeekShopping.Web.csproj", "{784AE5BD-680C-4353-AF89-2F06FB86C42B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.ProductApi", "GeekShopping.ProductApi\GeekShopping.ProductApi.csproj", "{5C871601-E798-4581-AA6D-64FF852BAF08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{784AE5BD-680C-4353-AF89-2F06FB86C42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784AE5BD-680C-4353-AF89-2F06FB86C42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784AE5BD-680C-4353-AF89-2F06FB86C42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784AE5BD-680C-4353-AF89-2F06FB86C42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C871601-E798-4581-AA6D-64FF852BAF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C871601-E798-4581-AA6D-64FF852BAF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C871601-E798-4581-AA6D-64FF852BAF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C871601-E798-4581-AA6D-64FF852BAF08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{784AE5BD-680C-4353-AF89-2F06FB86C42B} = {DCCEDEDF-57DF-4ED4-BB1A-181D9C78709A}
+		{5C871601-E798-4581-AA6D-64FF852BAF08} = {6F6315B7-6A23-4998-AAC4-9A00036E0573}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4725490B-DACD-4E75-923F-F4F997336321}
+	EndGlobalSection
+EndGlobal

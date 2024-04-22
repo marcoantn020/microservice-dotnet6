@@ -1,0 +1,10 @@
+- Executa as migrations de uma tabela especifica
+	- dotnet ef migrations add AddProductDataTableOnDB
+
+- Executa as migrations no banco
+	- dotnet ef database update
+
+- Executar Seeders
+	- dotnet ef migrations add MIGRATION_NAME_DATA_TABLE
+	- depois basta atualizar o banco
+		- dotnet ef database update
